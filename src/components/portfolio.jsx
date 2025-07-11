@@ -207,16 +207,17 @@ const Portfolio = () => {
             }`}
           >
             <div className="relative mb-8">
-              <div className="w-48 h-48 mx-auto rounded-full bg-gradient-to-r from-blue-500 to-purple-600 p-1">
-                <div className="w-full h-full rounded-full bg-gradient-to-br from-slate-800 to-slate-900 flex items-center justify-center">
-                  <div className="text-6xl font-bold bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
-                    DS
-                  </div>
+            <div className="w-72 h-72 mx-auto rounded-full bg-gradient-to-r from-blue-500 to-purple-600 p-1">
+                <div className="w-full h-full rounded-full bg-gradient-to-br from-slate-800 to-slate-900 flex items-center justify-center overflow-hidden">
+                  <img 
+                    src="/DP.jpg" 
+                    alt="Profile Picture" 
+                    className="w-full h-full object-cover rounded-full"
+                  />
                 </div>
               </div>
               <div className="absolute inset-0 rounded-full bg-gradient-to-r from-blue-500 to-purple-600 opacity-20 blur-xl"></div>
             </div>
-
             <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">
               Dilshan Somaweera
             </h1>
