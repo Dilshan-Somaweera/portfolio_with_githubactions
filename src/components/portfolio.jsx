@@ -207,7 +207,7 @@ const Portfolio = () => {
             }`}
           >
             <div className="relative mb-8">
-            <div className="w-72 h-72 mx-auto rounded-full bg-gradient-to-r from-blue-500 to-purple-600 p-1">
+            <div className="w-48 h-48 mx-auto rounded-full bg-gradient-to-r from-blue-500 to-purple-600 p-1">
                 <div className="w-full h-full rounded-full bg-gradient-to-br from-slate-800 to-slate-900 flex items-center justify-center overflow-hidden">
                   <img 
                     src="/DP.jpg" 
