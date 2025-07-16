@@ -210,7 +210,7 @@ const Portfolio = () => {
             <div className="w-48 h-48 mx-auto rounded-full bg-gradient-to-r from-blue-500 to-purple-600 p-1">
                 <div className="w-full h-full rounded-full bg-gradient-to-br from-slate-800 to-slate-900 flex items-center justify-center overflow-hidden">
                   <img 
-                    src={`${basePath}/DP.jpg`} 
+                    src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/DP.jpg`} 
                     alt="Profile Picture" 
                     className="w-full h-full object-cover rounded-full"
                   />
