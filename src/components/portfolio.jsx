@@ -239,8 +239,8 @@ const Portfolio = () => {
                 className="flex items-center px-8 py-3 border-2 border-white/20 hover:border-white/40 rounded-full font-medium transition-all duration-300 hover:bg-white/10"
                 onClick={() => {
                   const link = document.createElement('a');
-                  link.href = encodeURI('/Dilshan Somaweera – Azure Cloud Engineer  DevOps  Microsoft Certified (AZ-104, AI-102).pdf');
-                  link.download = 'Dilshan Somaweera – Azure Cloud Engineer  DevOps  Microsoft Certified (AZ-104, AI-102).pdf';
+                  link.href = '/dilshan-somaweera-cv.pdf';
+                  link.download = 'Dilshan Somaweera - Azure Cloud Engineer & DevOps.pdf';
                   link.click();
                 }}
               >
